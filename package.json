@@ -1,12 +1,18 @@
 {
   "name": "node-lcs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Implementations for the Longest Common Substring algorithm [O(nm) time]",
   "main": "index.js",
   "scripts": {
     "test": "nyc --reporter=lcovonly mocha && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage"
   },
   "author": "Edison E. Abreu",
+  "keywords": [
+    "lcs",
+    "longest",
+    "common",
+    "substring"
+  ],
   "license": "MIT",
   "devDependencies": {
     "coveralls": "^3.0.0",

@@ -1,7 +1,5 @@
 # node-lcs
-[![Build Status](https://travis-ci.org/dinhoabreu/node-lcs.svg?branch=master)](https://travis-ci.org/dinhoabreu/node-lcs) [![Coverage Status](https://coveralls.io/repos/github/dinhoabreu/node-lcs/badge.svg?branch=master)](https://coveralls.io/github/dinhoabreu/node-lcs?branch=master)
-
-
+[![npm](https://img.shields.io/npm/v/node-lcs.svg)](https://www.npmjs.com/package/node-lcs) [![Build Status](https://travis-ci.org/dinhoabreu/node-lcs.svg?branch=master)](https://travis-ci.org/dinhoabreu/node-lcs) [![Coverage Status](https://coveralls.io/repos/github/dinhoabreu/node-lcs/badge.svg?branch=master)](https://coveralls.io/github/dinhoabreu/node-lcs?branch=master)
 
 Common dynamic programming implementations for the Longest Common Substring algorithm runs in O(nm) time.
 Reference implementation at [WikiBooks](https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Longest_common_substring#JavaScript)
