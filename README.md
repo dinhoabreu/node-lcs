@@ -23,6 +23,6 @@ var result = lcs('Longest common substring', 'Compare with this common string')
 console.log(result)
 ```
 
-```json
+```javascript
 { length: 9, sequence: ' common s', offset: 7 }
 ```
