@@ -4,7 +4,8 @@
   "description": "Implementations for the Longest Common Substring algorithm [O(nm) time]",
   "main": "index.js",
   "scripts": {
-    "test": "nyc --reporter=lcovonly mocha && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage"
+    "test": "nyc --reporter=text-summary --reporter=lcovonly mocha && npm run coveralls",
+    "coveralls": "if-env TRAVIS=true && coveralls <./coverage/lcov.info || true"
   },
   "author": "Edison E. Abreu",
   "keywords": [
@@ -16,6 +17,7 @@
   "license": "MIT",
   "devDependencies": {
     "coveralls": "^3.0.0",
+    "if-env": "^1.0.4",
     "mocha": "^4.0.1",
     "mocha-lcov-reporter": "^1.3.0",
     "nyc": "^11.3.0",
