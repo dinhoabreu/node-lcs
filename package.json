@@ -1,6 +1,6 @@
 {
   "name": "node-lcs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Implementations for the Longest Common Substring algorithm [O(nm) time]",
   "main": "index.js",
   "scripts": {
